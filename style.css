@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section h2,
+section h3 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+body, input, textarea {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #1A423C;
+  color: #fff;
+}
+
+header h1,
+section h2,
+section h3 {
+  font-weight: 800;
+}
+
+h1 {
+  position: relative;
+  -webkit-text-stroke: 2px red;
+}
+
+h1::before {
+  content: attr(data-char);
+  position: absolute;
+  z-index: 1;
+  -webkit-text-stroke: 1px black;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 800;!important
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands-list img {
+  height: 72px;
+}
+
+.site-front {
+  width: 50%;
+  height: auto;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: center;
+}
+
+.brands-list li {
+  display: inline;
+  margin-right: 8px;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+  color: #1A423C;
+}
+
+section h2 {
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 16px;
+}
+
+section img {
+  margin-right: 32px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 2px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+section h3 {
+  margin-bottom: 16px;
+}
+
+form button {
+  background-color: #1A423C;
+  color: #e9e3d5;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2d5ad7;
+}
+
+input:focus, textarea:focus {
+  outline-color: #1A423C;
+}
+
+footer {
+  background-color: #1A423C;
+  color: #e9e3d5;
+  padding: 16px 0;
+}
