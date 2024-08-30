@@ -1,4 +1,4 @@
-# Hunterpedia
+# Hunterpedia  <img src="images/gon.png" height="40" width="50" alt="Gon"><img src="images/killua.png" height="40" width="50" alt="Killua">
 
 A entrega desse exercício consiste em:
 <ul>
